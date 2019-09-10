@@ -1,0 +1,6 @@
+void Cclaclater2Dlg::OnBnClickedButton1()
+{
+	UpdateData(true);
+	m_C3 = m_C2 + m_C1;
+	UpdateData(false);
+}
